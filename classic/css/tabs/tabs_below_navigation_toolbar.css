@@ -119,6 +119,7 @@
 /* bookmarks toolbar */
 #navigator-toolbox #PersonalToolbar {
   -moz-box-ordinal-group: 3 !important;
+  height: 30px !important;
 }
 /* 3rd party toolbars */
 #navigator-toolbox toolbar {
@@ -214,12 +215,12 @@ toolbar:not(#TabsToolbar):not(#toolbar-menubar):not(#nav-bar):not(:-moz-lwtheme)
   visibility: collapse !important;
 }
 
-#main-window[tabsintitlebar][sizemode="normal"] #toolbar-menubar[autohide="true"][inactive="true"] {
-  margin-top: 21px !important;
-}
-#main-window[tabsintitlebar][sizemode="maximized"] #toolbar-menubar[autohide="true"][inactive="true"] {
-  margin-top: 20px !important;
-}
+/* #main-window[tabsintitlebar][sizemode="normal"] #toolbar-menubar[autohide="true"][inactive="true"] { */
+/*   margin-top: 21px !important; */
+/* } */
+/* #main-window[tabsintitlebar][sizemode="maximized"] #toolbar-menubar[autohide="true"][inactive="true"] { */
+/*   margin-top: 20px !important; */
+/* } */
 
 #tabbrowser-tabs .tab-drop-indicator {
   margin-bottom: 0px !important;
