@@ -287,7 +287,7 @@
 /* @import "./css/appbutton/appbutton_in_titlebar.css"; /**/ /* <-- label only */
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only.css"; /**/
 /* -- Fx 74+ (might already work on Fx 73) ******************************************************/
-@import "./css/appbutton/appbutton_in_titlebar_fx74.css"; /**/ /* <-- label only */
+/* @import "./css/appbutton/appbutton_in_titlebar_fx74.css"; /**/ /* <-- label only */
 /* @import "./css/appbutton/appbutton_in_titlebar_icon_only_fx74.css"; /**/
 
 /* for 'appbutton in titlebar icon only' - [only use one at a time] *****************************/
@@ -299,7 +299,7 @@
 /* @import "./css/appbutton/appbutton_in_titlebar_label_and_icon.css"; /**/
 
 /* macOS fix - appbutton in titlebar gets moved to the right for obvious reasons, right Apple? **/
-/* @import "./css/appbutton/appbutton_in_titlebar_macOS_fix.css"; /**/
+@import "./css/appbutton/appbutton_in_titlebar_macOS_fix.css"; /**/
 
 /* button color - [only use one at a time] ******************************************************/
 @import "./css/appbutton/appbutton_in_titlebar_autocolor.css"; /**/
@@ -352,14 +352,14 @@
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx65_v2_force_hidden_menubar.css"; /**/ /* no menubar when OS titlebar is active */
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx65_v2_macOS.css"; /**/
 /* - Fx 68-71 Windows/Linux (use the Fx 65+ versions for macOS) *********************************/
-@import "./css/tabs/tabs_below_navigation_toolbar_fx68.css"; /**/
+/* @import "./css/tabs/tabs_below_navigation_toolbar_fx68.css"; /**/
 /* - Fx 72-73 Windows/Linux (use the Fx 65+ versions for macOS) *********************************/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx72.css"; /**/
 /* - Fx 74+ Windows/Linux ***********************************************************************/
 /* [!] might require overriding url bars 'selection color' --> see corresponding area ***********/ 
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx74.css"; /**/
 /* - Fx 74+ - macOS *****************************************************************************/
-/* @import "./css/tabs/tabs_below_navigation_toolbar_fx74_macOS.css"; /**/
+@import "./css/tabs/tabs_below_navigation_toolbar_fx74_macOS.css"; /**/
 /* @import "./css/tabs/tabs_below_navigation_toolbar_fx74_macOS_default_tabs.css"; /**/
 
 /* - TABS BELOW MAIN CONTENT (tabs on bottom) - EXPERIMENTAL ************************************/
